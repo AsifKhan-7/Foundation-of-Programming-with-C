@@ -1,0 +1,15 @@
+README.md
+
+# Ignore compiled files
+*.out
+*.exe
+
+# Ignore object files
+*.o
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore build folder
+build/
