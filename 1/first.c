@@ -19,7 +19,7 @@
 int x;  // Global declaration | x is a Global variable
 main()
 {
-    
+
 }
 isPrime()
 {
@@ -31,10 +31,11 @@ isPrime()
 
 lcm()
 {
-    int l; 
+    int l;
 }
 
 add()
 {
     int a,b;
 }
+
