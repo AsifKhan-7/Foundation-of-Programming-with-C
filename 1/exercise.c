@@ -110,7 +110,42 @@ int main() {
     /*
      * WAP to input ASCII code from the user and print its corresponding character.
      */
+    /*int characterASCIICode;
+    printf("Please enter the ASCII code: ");
+    scanf("%d", &characterASCIICode);
+    printf("Character is %c", characterASCIICode);*/
 
+    /*
+     * WAP to input three characters from the user and display characters with their corresponding  ASCII code
+     */
 
+     /*char characterOne, characterTwo, characterThree;
+     printf("Please enter first character: ");
+     scanf(" %c", &characterOne);
+     printf("Character is %c and ASCII code is %d\n", characterOne,characterOne);
+     printf("Please enter second character: ");
+     scanf(" %c", &characterTwo);
+     printf("Character is %c and ASCII code is %d\n", characterTwo,characterTwo);
+     printf("Please enter third character: ");
+     scanf(" %c", &characterThree);
+     printf("Character is %c and ASCII code is %d", characterThree,characterThree);*/
+
+     /*
+      * WAP to print the last digit of the given number
+      */
+     /*int inputNumber, lastDigitOfNumber;
+      printf("Please enter the number: ");
+      scanf("%d", &inputNumber);
+      lastDigitOfNumber = inputNumber % 10;
+      printf("Last digit of %d is %d", inputNumber, lastDigitOfNumber);*/
+
+      /*
+      * WAP to print the given number without last digit
+      */
+     /*int inputNumber, numberWithoutLastDigit;
+      printf("Please enter the number: ");
+      scanf("%d", &inputNumber);
+      numberWithoutLastDigit = inputNumber / 10;
+      printf("Number: %d is without last digit: %d", inputNumber, numberWithoutLastDigit);*/
   return 0;
 }
