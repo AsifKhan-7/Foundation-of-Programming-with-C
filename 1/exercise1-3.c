@@ -53,12 +53,13 @@ int main() {
   //  printf("Exercise - 2");
   /* WAP to calculate average of three integers. Numbers are givne by the user */
   /*
-   int x,y,z,average;
+   int x,y,z;
+   float average;
 
     printf("Please enter three numbers: ");
     scanf("%d %d %d", &x, &y, &z);
-    average = (x+y+z)/3;
-    printf("Average of %d %d and %d is %d",x, y, z, average); */
+    average = (x+y+z)/3.0;
+    printf("Average of %d %d and %d is %f",x, y, z, average); */
 
 
   /* WAP to calculate circumference of a circle */
@@ -85,39 +86,34 @@ int main() {
 
   /* WAP to ask user about the cost and selling price of banana per dozen. Calculate the profit or loss earned upon selling 25 bananas */
 
-  /*int costPrice, sellingPrice;
+  /*float costPrice, sellingPrice;
   float profitOrLoss;
   printf("Please enter cost price of 1 dozen bananas: ");
-  scanf("%d", &costPrice);
+  scanf("%f", &costPrice);
   printf("Please enter selling price of 1 dozen bananas: ");
-  scanf("%d", &sellingPrice);
+  scanf("%f", &sellingPrice);
   profitOrLoss = 25 * (sellingPrice - costPrice) / 12.0;
-  printf("Price of 25 bananas %f", profitOrLoss);*/
+  printf("Profit / Loss is  %f", profitOrLoss);*/
 
-  /*
-   * Exercise - 3
-   */
 
-   /*
-    WAP to to input a character from user and print its ASCII code
-    */
+     // Exercise - 3
+    //WAP to to input a character from user and print its ASCII code
 
    /* char character;
     printf("Please enter any character: ");
     scanf("%c", &character);
     printf("ASCII code of %c is %d: ", character);*/
 
-    /*
-     * WAP to input ASCII code from the user and print its corresponding character.
-     */
+
+    //WAP to input ASCII code from the user and print its corresponding character.
+
     /*int characterASCIICode;
     printf("Please enter the ASCII code: ");
     scanf("%d", &characterASCIICode);
     printf("Character is %c", characterASCIICode);*/
 
-    /*
-     * WAP to input three characters from the user and display characters with their corresponding  ASCII code
-     */
+
+      //WAP to input three characters from the user and display characters with their corresponding  ASCII code
 
      /*char characterOne, characterTwo, characterThree;
      printf("Please enter first character: ");
@@ -130,18 +126,18 @@ int main() {
      scanf(" %c", &characterThree);
      printf("Character is %c and ASCII code is %d", characterThree,characterThree);*/
 
-     /*
-      * WAP to print the last digit of the given number
-      */
+
+      //WAP to print the last digit of the given number
+
      /*int inputNumber, lastDigitOfNumber;
       printf("Please enter the number: ");
       scanf("%d", &inputNumber);
       lastDigitOfNumber = inputNumber % 10;
       printf("Last digit of %d is %d", inputNumber, lastDigitOfNumber);*/
 
-      /*
-      * WAP to print the given number without last digit
-      */
+
+       //WAP to print the given number without last digit
+
      /*int inputNumber, numberWithoutLastDigit;
       printf("Please enter the number: ");
       scanf("%d", &inputNumber);
