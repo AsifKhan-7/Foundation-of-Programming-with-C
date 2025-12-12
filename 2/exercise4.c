@@ -48,10 +48,43 @@ int main() {
       printf("Now b is: %d", b);*/
 
       //WAP to swap values of two int variables without using third variable and +,- operators.
+      /*int firstNumber, secondNumber, total;
+      printf("Please enter first number: ");
+      scanf("%d", &firstNumber);
+      printf("Please enter second number: ");
+      scanf("%d", &secondNumber);
+      total = firstNumber * secondNumber;
+      printf("Now the total is: %d\n", total);
+      secondNumber = total / secondNumber;
+      printf("Swapped second number: %d\n", secondNumber);
+      firstNumber = total / secondNumber;
+      printf("Swapped first number: %d\n", firstNumber);
+      printf("Now first number is: %d and Second number is: %d", firstNumber, secondNumber);
+      printf("\n");*/
 
+      //WAP to swap values of two int variables without using third variable & arithmetic operators
 
+     /*int a,b;
+      printf("Please enter number:");
+      scanf("%d", &a);
+      printf("Please enter number: ");
+      scanf("%d", &b);
+      a = a ^ b;
+      b = a ^ b;
+      a = a ^ b;
+      printf("Now a is: %d and b is: %d", a, b);*/
 
-  return 0;
+      //WAP to swap values of two int variables in single line arithmetic expression
+
+      int a, b;
+      printf("Please enter number: ");
+      scanf("%d", &a);
+      printf("Please enter number: ");
+      scanf("%d", &b);
+      a = (a + b) - (b = a);
+      printf("Now a is: %d and b is: %d", a, b);
+
+      return 0;
 }
 
 
