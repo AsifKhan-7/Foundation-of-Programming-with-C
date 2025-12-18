@@ -85,6 +85,31 @@ int main() {
   WAP to check whether roots of a given quadratic equation are real & distinct, real & equal or imaginary roots
  */
 
+  /*float a, b, c, D;
+  printf("Please enter cofficient of a: ");
+  scanf("%f", &a);
+  printf("Please enter cofficient of b: ");
+  scanf("%f", &b);
+  printf("Please enter cofficient of c: ");
+  scanf("%f", &c);
+
+  D = b * b - 4 * a * c;
+
+  if (D > 0)
+  {
+    printf("Roots are real & distinct. %f", D);
+  }
+  else if(D == 0)
+  {
+    printf("Roots are real & equal. %f", D);
+
+  }
+  else if(D < 0)
+  {
+    printf("Roots are imaginary. %f", D);
+
+  } */
+
   printf("\n");
   return 0;
 }
