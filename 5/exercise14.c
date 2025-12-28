@@ -35,6 +35,20 @@ int main() {
       WAP to count digits in a given number.
      */
 
+    /* int n, count = 0;
+     printf("Please enter any number: ");
+     scanf("%d", &n);
+
+     while(n > 0) {
+      n = n / 10;
+      count++;
+     }
+     printf("Digits are: %d", count); */
+
+     /*
+       WAP to check whether a given number is a Prime number or not.
+      */
+
   printf("\n");
   return 0;
 }
