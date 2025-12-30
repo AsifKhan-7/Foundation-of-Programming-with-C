@@ -49,6 +49,26 @@ int main() {
        WAP to check whether a given number is a Prime number or not.
       */
 
+      int i = 2, isPrime = 1, number;
+      printf("Please enter any number: ");
+      scanf("%d", &number);
+      if(number == 1) {
+        isPrime = 0;
+        printf("%d isn't prime.", number);
+      }
+
+      while(i * i <= number) {
+        if(number % i == 0){
+          isPrime = 0;
+          printf("%d is not prime.", number);
+          break;
+        }
+        i++;
+      }
+      if(isPrime == 1) {
+        printf("%d is prime.", number);
+      }
+
   printf("\n");
   return 0;
 }
