@@ -84,6 +84,27 @@ int main() {
   }
   printf("Sum of cubes of first %d natural numbers = %d", number, sum); */
 
+  int i = 2, n;
+  printf("Please enter any number: ");
+  scanf("%d", &n);
+  if(n == 1 || n <= 0) {
+    printf("%d is not a prime number.", n);
+  }
+  if(n == 2) {
+    printf("%d is a prime number.", n);
+  }
+
+  while(i <= n-1) {
+    if(n % i == 0) {
+      printf("%d is not a prime number.", n);
+      break;
+    }
+    i++;
+    if(i == n) {
+      printf("%d is a prime number.", i);
+    }
+  }
+
   printf("\n");
   return 0;
 }

@@ -9,7 +9,8 @@ int main() {
   for(int i = 2; i < 100; i++){
     int isPrime = 1;
     // for(int j = 2; j <= i - 1; j++){ Bcoz i apne half se bade kisi number se completely divide nhi hota(without i itself)
-    for(int j = 2; j <= i / 2; j++){
+    // for(int j = 2; j <= i / 2; j++){
+    for(int j = 2; j * j <= i ; j++){// Loop number i ke square root tak check karega/chalega
       if(i % j == 0) {
         isPrime = 0;
         break;
